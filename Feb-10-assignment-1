@@ -1,0 +1,12 @@
+#students results 
+sno=(int(input("Enter roll number:"))
+sname=input("Enter the student name:")
+physics=int(input("Enter the physics marks":))
+maths=int(input(" Enter the maths marks:"))
+electronics=int(input("Enter the student electronics marks:"))
+telugu=int(input("Enter the telugu marks:"))
+english=int(input("Enter the English marks":))
+if (physics and maths electronics and telugu and english)>35:
+   print("pass")
+ else:
+   print("fail")
